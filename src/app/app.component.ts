@@ -12,12 +12,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 })
 export class MyApp {
   rootPage:any = HomePage;
-  private home: HomePage = HomePage;
-  private tips: tips;
+  private home;
+  private tips;
 
-  
+
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
-    //this.home = HomePage;
+    this.home = HomePage;
     this.tips = tips;
 
     this.rootPage = this.home;
