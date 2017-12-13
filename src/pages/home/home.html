@@ -1,14 +1,58 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      INICIO
     </ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
   </ion-navbar>
+  <ion-card class="Data">
+  Data/
+</ion-card>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content class="background">
+
+  <ion-card class="card">
+    <ion-item-group class="Hora" >
+      Hora!
+    </ion-item-group>
+  <ion-grid>
+    <ion-row>
+      <ion-col  class="times" >
+        <ion-list >
+          <ion-item-group>Time C x Time B</ion-item-group>
+          <ion-item-group>0x0</ion-item-group>
+        </ion-list>
+      </ion-col>
+      <ion-col class="odds">
+        <ion-list >
+          <ion-item-group>Time B</ion-item-group>
+          <ion-item-group>ODD</ion-item-group>
+        </ion-list>
+      </ion-col>
+      <ion-col >
+          <ion-item-group><img src="../../assets/imgs/vitoria.png"></ion-item-group>
+      </ion-col>
+    </ion-row>
+    <ion-item-group class="betscasas">
+    <ion-grid>
+      <ion-row>
+        <ion-col class="BA">
+          Bet A
+        </ion-col>
+        <ion-col class="BB">
+          Bet B
+        </ion-col>
+        <ion-col class="BC">
+          Bet C
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item-group>
+  </ion-grid>
+
+
+  </ion-card>
 </ion-content>

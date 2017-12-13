@@ -2,17 +2,14 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-tips',
+ templateUrl: 'tips.html'
 })
-export class HomePage {
+export class tips {
   private nome: string;
 
   constructor(public navCtrl: NavController) {
-  this.nome = "Modelo";
+    this.nome = "Modelo";
   }
 
-  getNome(){
-    return "Retornando pelo metodo " + this.nome;
-  }
 }
