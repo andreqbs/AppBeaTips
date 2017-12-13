@@ -35,6 +35,28 @@ page-home {
     margin-bottom: 10px;
   }
 
+  .images-parent{
+    text-align: center;
+  }
+
+  .left-image{
+    float:left;
+    max-width: 80px !important;
+    max-height: 80px !important;
+  }
+
+  .center-image{
+    margin:0 auto;
+    max-width: 20px !important;
+    max-height: 20px !important;
+  }
+
+  .right-image{
+    float:right;
+    max-width: 20px !important;
+    max-height: 20px !important;
+  }
+
   .betscasas{
     //background: rgba(0, 0, 0, 0.5);
     box-shadow: none;
